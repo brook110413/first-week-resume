@@ -138,7 +138,7 @@ a {
   color: #ffffff;
 }
 
-h2 {
+.title h2 {
   font-size: 32px;
   line-height: 45px;
   display: -webkit-box;
@@ -154,7 +154,7 @@ h2 {
   font-weight: bold;
 }
 
-span {
+.title span {
   font-size: 24px;
   line-height: 32px;
   margin-left: 16px;
@@ -203,7 +203,7 @@ span {
   left: -24px;
 }
 
-.name-photo h1 {
+.namePhoto h1 {
   margin: 48px 0;
   padding-bottom: 24px;
   font-size: 80px;
@@ -211,7 +211,7 @@ span {
   border-bottom: 2px solid #000;
 }
 
-.name-photo .photo {
+.namePhoto .photo {
   background-image: url(../img/photo-1536180931879-fd2d652efddc.png);
   width: 324px;
   height: 324px;
@@ -220,21 +220,6 @@ span {
 
 .profile {
   margin-bottom: 79px;
-}
-
-.profile .profile-list-item {
-  position: relative;
-}
-
-.profile .profile-list-item:before {
-  content: "";
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  background: #96a9c4;
-  border-radius: 50%;
-  left: -32px;
-  top: 10px;
 }
 
 .education {
@@ -356,16 +341,6 @@ span {
 .contact {
   text-align: center;
   line-height: 1.5;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .contact h2 {
@@ -395,6 +370,9 @@ span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-bottom: 48px;
 }
 
