@@ -122,7 +122,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
+  content: "";
   content: none;
 }
 
@@ -158,7 +158,7 @@ a {
     margin-left: 16px;
     font-family: Roboto, medium, sans-serif;
     font-weight: bold;
-    color: #A00404;
+    color: #a00404;
   }
 }
 
@@ -218,6 +218,9 @@ a {
 
 .profile {
   margin-bottom: 79px;
+  li {
+    margin-bottom: 24px;
+  }
 }
 
 .education {
@@ -232,7 +235,7 @@ a {
   &:before {
     content: "";
     position: absolute;
-    background: #96A9C4;
+    background: #96a9c4;
     background-position: center;
     width: 100%;
     height: 360px;
@@ -302,7 +305,7 @@ a {
 .footer {
   position: relative;
   &:before {
-    content: '';
+    content: "";
     position: absolute;
     background: #415165;
     background-position: center;
